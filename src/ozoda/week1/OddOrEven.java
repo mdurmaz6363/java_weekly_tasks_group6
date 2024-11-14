@@ -1,7 +1,9 @@
 package ozoda.week1;
 
 public class OddOrEven {
-    /*
+
+
+
     /*
     Write  a method which can identifies given number is even or odd
 EX:
