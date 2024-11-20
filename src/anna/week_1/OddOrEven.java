@@ -26,7 +26,6 @@ identify(6) ->  "Even"
         } else {
             System.out.println(n + " is odd number");
         }
-
     }
 
     public static String returnTypeOddOrEven(int num) {
