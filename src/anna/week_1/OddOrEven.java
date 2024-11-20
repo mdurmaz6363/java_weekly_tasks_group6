@@ -15,6 +15,9 @@ identify(6) ->  "Even"
         int number = 5;
         oddOrEven(number);
         oddOrEven(6);
+
+        String str = returnTypeOddOrEven(50);
+        System.out.println(str);
     }
 
     public static void oddOrEven(int n) {
@@ -23,6 +26,9 @@ identify(6) ->  "Even"
         } else {
             System.out.println(n + " is odd number");
         }
+    }
 
+    public static String returnTypeOddOrEven(int num) {
+       return (num % 2 == 0)? "Number is odd" : "Number is even";
     }
 }
