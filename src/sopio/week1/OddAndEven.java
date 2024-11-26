@@ -1,4 +1,4 @@
-package sopio.week_1;
+package sopio.week1;
 
 public class OddAndEven {
 
@@ -12,7 +12,7 @@ public class OddAndEven {
     }
 
     public static void main(String[] args) {
-        System.out.println(oddOrEven(2));
+        System.out.println(oddOrEven(11));
     }
 }
 
