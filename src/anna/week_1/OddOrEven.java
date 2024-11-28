@@ -29,6 +29,6 @@ identify(6) ->  "Even"
     }
 
     public static String returnTypeOddOrEven(int num) {
-       return (num % 2 == 0)? "Number is odd" : "Number is even";
+       return (num % 2 == 0)? "Number is even" : "Number is odd";
     }
 }
