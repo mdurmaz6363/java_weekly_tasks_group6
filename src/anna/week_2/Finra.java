@@ -6,6 +6,8 @@ public class Finra {
         finra(a);
 
     }
+
+
     public static void finra(int num) {
         for (int i = 1; i <= num; i++) {
             if (i % 3 == 0 && i % 5 == 0) {
@@ -16,11 +18,10 @@ public class Finra {
 
             } else if (i % 5 == 0) {
                 System.out.print("RA" + " ");
-
+            } else {
+                System.out.print(i + " ");
             }
-            System.out.print(i + " ");
         }
-        System.out.println();
     }
 }
 /*
