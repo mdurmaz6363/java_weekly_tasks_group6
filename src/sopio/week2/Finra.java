@@ -25,11 +25,11 @@ public class Finra {
     }
 
     public static void finraNumberCount2 (){
-        for (int i = 1; i < 30; i++) {
+        for (int i = 1; i <=30; i++) {
             String result= "";
+
             if (i%3==0) result +="Fin";
             if (i%5==0) result += "Ra";
-
             System.out.print(result.isEmpty() ? i+ " ": result+" ");
         }
     }
