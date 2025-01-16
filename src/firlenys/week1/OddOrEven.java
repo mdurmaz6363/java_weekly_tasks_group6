@@ -23,6 +23,6 @@ identify(6) ->  "Even"
 
 }
 
+   public static String OddorEven(int number) {
 
-
-
+}
