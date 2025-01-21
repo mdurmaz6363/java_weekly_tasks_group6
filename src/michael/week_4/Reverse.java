@@ -9,7 +9,22 @@ public class Reverse {
         return Integer.valueOf(str);
     }
 
+
+   // 2nd Solution from Sopio
+
+    public static int reverse(int x) {
+        int reversed = 0;
+        while (x != 0) {
+            int digit = x % 10;
+            reversed = reversed * 10 + digit;
+            x /= 10;
+        }
+        return reversed;
+
+    }
+
     public static void main(String[] args) {
         System.out.println(reverseNum(-125));
+        System.out.println("reverse(-125) = " + reverse(-125));
     }
 }
