@@ -5,7 +5,7 @@ public class UniqueElements {
 
     public static void main(String[] args) {
 
-        String str = "AAABBBCCCDEF";
+        String str = "AAABBBCCCDEF";;
         System.out.println(uniqueChars(str));
 
     }
