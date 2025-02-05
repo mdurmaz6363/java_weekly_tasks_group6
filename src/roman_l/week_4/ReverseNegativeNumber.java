@@ -6,7 +6,7 @@ negative number and return it as int*/
 
 public class ReverseNegativeNumber {
     public static void main(String[] args) {
-        int num = -12345;
+        int num = -100;
         System.out.println("Original number " + num);
         System.out.println("Reversed number " + reverseNumber(num));
     }
