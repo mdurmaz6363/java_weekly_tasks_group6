@@ -8,9 +8,9 @@ public class findMinNumber {
     //Write a method that can find the maximum number from an int Array.
     public static void main(String[] args) {
 
-        int [] number = {3, 5, 10, 8, 9};
+        int [] number = {3, 5, -10, 8, 9, 20};
         int [] result = maxAndMinNumber(number);
-        System.out.println("Max "+ result[0]+" , Max: "+result[1]);
+        System.out.println("Max "+ result[0]+" , Min: "+result[1]);
 
 
     }
