@@ -9,7 +9,8 @@ public class SortArray {
         System.out.println(Arrays.toString(sortArray(num)));
 
     }
-    
+
+    //bubbleSort Algorithm
     public static int [] sortArray (int [] num){
         for (int i = 0; i < num.length-1; i++) {
             for (int j = 0; j < num.length-1; j++) {
